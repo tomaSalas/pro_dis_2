@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+
+}
+
+.content_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search_container input {
+    width: 460px;
+    height: 46px;
+    margin: 10px 0px 30px 0px;
+    border-radius: 6px;
+    border: solid 2px rgb(224, 224, 224);
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
